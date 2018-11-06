@@ -17,7 +17,7 @@ import { RoutesZoomedInComponent } from './routes-zoomed-in/routes-zoomed-in.com
 import { NetMovesComponent } from './net-moves/net-moves.component';
 import { DistributionsComponent } from './distributions/distributions.component';
 import { PassholderComponent } from './passholder/passholder.component';
-import { PassholderMonthsComponent } from './passholder-months/passholder-months.component';
+import { CreditsComponent } from './credits/credits.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +32,7 @@ import { PassholderMonthsComponent } from './passholder-months/passholder-months
     NetMovesComponent,
     DistributionsComponent,
     PassholderComponent,
-    PassholderMonthsComponent
+    CreditsComponent
   ],
   imports: [
     BrowserModule,
