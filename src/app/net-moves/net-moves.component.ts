@@ -13,8 +13,9 @@ export class NetMovesComponent implements OnInit {
 
     var divElement = document.getElementById('viz1541432731621');
     var vizElement = divElement.getElementsByTagName('object')[0];
-    vizElement.style.width = '700px';
-    vizElement.style.height = '550px';
+    vizElement.style.width = (screen.width * 0.4) + 'px';
+    vizElement.style.maxHeight = (screen.width * 0.7) + 'px';
+    vizElement.style.height = (screen.height * 0.8) + 'px';
     var scriptElement = document.createElement('script');
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
     vizElement.parentNode.insertBefore(scriptElement, vizElement);

@@ -5,7 +5,7 @@
 @import url(https://fonts.googleapis.com/css?family=Abel);
 // This style is for images that will be frozen will text scrolls over
 .scrollTextOverFreezeImg {
-    background: #ffffff;
+    background: white;
     height: 120vh;
     line-height: 50px;
     position: sticky;
@@ -21,6 +21,15 @@
     margin-top: 10px;
     padding-left: 10px;
     top: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+p,
+b {
+    font-size: 10px;
 }
 
 h5,
