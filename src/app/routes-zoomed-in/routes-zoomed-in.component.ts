@@ -16,7 +16,7 @@ export class RoutesZoomedInComponent implements OnInit {
     vizElement.style.maxWidth = '2000px';
     vizElement.style.minHeight = '400px';
     vizElement.style.maxHeight = '1200px';
-    vizElement.style.width = (screen.width * 0.03) + 'px';
+    vizElement.style.width = (screen.width * 1.03) + 'px';
     vizElement.style.height = (screen.width*0.7) + 'px';
     var scriptElement = document.createElement('script');
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
