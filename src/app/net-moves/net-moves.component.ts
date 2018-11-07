@@ -14,7 +14,7 @@ export class NetMovesComponent implements OnInit {
     var divElement = document.getElementById('viz1541432731621');
     var vizElement = divElement.getElementsByTagName('object')[0];
     vizElement.style.width = (screen.width * 0.4) + 'px';
-    vizElement.style.height = (screen.height >  (screen.width * 0.75)) ? (screen.height * 0.8) + 'px' (screen.width * 0.7) + 'px';
+    vizElement.style.height = (screen.height >  (screen.width * 0.75)) ? (screen.height * 0.8) + 'px' : (screen.width * 0.7) + 'px';
     vizElement.style.maxWidth = '1800px';
     vizElement.style.maxHeight = '500px';
     var scriptElement = document.createElement('script');
